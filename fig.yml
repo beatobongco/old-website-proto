@@ -1,0 +1,14 @@
+web:
+  build: web
+  ports:
+    - 80:1337
+  volumes:
+    - web:/usr/src/app
+  command: python app.py
+
+blog:
+  image: dockerfile/ghost
+  ports:
+    - 2368:2368
+  volumes:
+    - ghost:/ghost-override
