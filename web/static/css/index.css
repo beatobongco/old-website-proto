@@ -23,7 +23,7 @@ h3, h4 {
 }
 
 h3 {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 
 h4 {
@@ -47,6 +47,10 @@ p.big {
 
 p.small {
   font-size: 1em;
+}
+
+.card {
+  padding: 100px 0;
 }
 
 .calling-card {
@@ -139,6 +143,10 @@ p.small {
   background-image: url(../images/others.png)
 }
 
+.frontend-card {
+  background-color: #ecf0f1;
+}
+
 .frontend {
   margin-top: 128px;
   margin-bottom: 128px;
@@ -177,7 +185,7 @@ p.small {
 
 .server {
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .server .serv {
