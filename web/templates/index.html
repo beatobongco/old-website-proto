@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beato Bongco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Beato Bongco" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://beatobongco.com" />
+  <meta property="og:image" content="{{ url_for('static', filename='images/beato.png')}}" />
+  <meta property="og:description" content="web development & systems design" />
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.2.3/featherlight.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
+</head>
+<body>
+
+  <div class="calling-card">
+    <div class="card-text">
+      <div class="logo-container">
+        <div class="logo wow fadeIn"></div>
+      </div>
+      <h1 class="wow fadeIn" data-wow-delay="1s">Beato Bongco</h1>
+      <h2 class="wow fadeIn" data-wow-delay="2s">web development & systems design</h2>
+
+      <div class="social-buttons">
+        <a class="wow bounceInDown" data-wow-delay="2.25s" href="https://www.facebook.com/beatobongco"><div class="social fb"></div></a>
+        <a class="wow bounceInDown" data-wow-delay="2.5s" href="http://ph.linkedin.com/in/beatobongco"><div class="social linkedin"></div></a>
+        <a class="wow bounceInDown" data-wow-delay="2.75s" href="https://github.com/beatobongco"><div class="social github"></div></a>
+        <a class="wow bounceInDown" data-wow-delay="3s" href="#"><div class="social mail"></div></a>
+      </div>
+
+      <p class="limited big wow fadeInUp" data-wow-delay="4s">
+        The web is my canvas and code is my medium. <br>
+        I strive to design efficient and elegant systems, <br>
+        and create technology that dissolves into everyday life. <br>
+        I focus on user experience and efficiency of movement. <br>
+        This is my passion and I learn more every day.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h3>Languages</h3>
+
+    <div class="languages">
+      <div class="row">
+        <div class="four columns">
+          <div class="lang python wow shake"></div>
+          <h4>Python</h4>
+          <p>The language that made me love programming. It drew me in with its clean prose and subtle power.</p>
+        </div>
+        <div class="four columns">
+          <div class="lang big-js wow swing" data-wow-delay="0.5s"></div>
+          <h4>Javascript</h4>
+          <p>The most ubiquitous language on the internet. Regularly used to make open-source web plugins.</p>
+        </div>
+        <div class="four columns">
+          <div class="lang others wow rubberBand" data-wow-delay="1s"></div>
+          <h4>Others</h4>
+          <p>I am always interested in learning about what other languages have to offer.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>Frontend toolkit</h3>
+
+    <div class="frontend">
+      <div id="frontend-trigger" class="reactjs wow zoomIn"></div>
+      <div class="orbit html5"></div>
+      <div class="orbit css"></div>
+      <div class="orbit js"></div>
+    </div>
+
+    <p class="big">HTML5, CSS3, Javascript and a dash of <a href="https://facebook.github.io/react/" target="_blank">React.JS</a> for modern, responsive, real-time apps made for all devices and platforms.</p>
+
+    <h3>Server-side and backend toolkit</h3>
+
+    <div class="server row">
+      <div class="four columns">
+        <div class="serv flask wow rotateIn"></div>
+        <h4>Flask</h4>
+        <p>A python web micro-framework that makes developing fast and hassle-free.</p>
+      </div>
+      <div class="four columns">
+        <div class="serv docker wow bounce" data-wow-delay="0.5s"></div>
+        <h4>Docker</h4>
+        <p>Rapid application deployment and shareability. The <a href="https://www.docker.com/" target="_blank">best thing</a> since sliced bread. </p>
+      </div>
+      <div class="four columns">
+        <div class="serv mysql wow tada" data-wow-delay="1s"></div>
+        <h4>MySQL</h4>
+        <p>Ease of use. Stability. Support. The world's most popular open-source database for good reasons.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="hidden">
+    <div class="mail-container">
+    <div class="greeting">
+      <div class="shield"></div>
+      <h4>Hi there!</h4>
+    </div>
+
+    <p>
+      To prevent my email from being spammed, I made
+      a simple ROT13 cipher in QWERTY order.
+    </p>
+    <p>Press 'decrypt' to contact me. :)</p>
+    <strong class="cipher">ehyyc@ahbkcacswoc.ocd</strong>
+    <button class="decrypt button-primary">Decrypt</button>
+    </div>
+  </div>
+
+  <div class="footer row">
+
+    <div class="four columns">
+      <p class="copyright">Copyright &copy; 2015 Beato Bongco. All rights reserved.</p>
+    </div>
+
+    <div class="four columns">
+      <div class="social-buttons">
+        <a href="https://www.facebook.com/beatobongco"><div class="social fb"></div></a>
+        <a href="http://ph.linkedin.com/in/beatobongco"><div class="social linkedin"></div></a>
+        <a href="https://github.com/beatobongco"><div class="social github"></div></a>
+      </div>
+    </div>
+
+    <div class="four columns">
+      <p class="attrib">Photograph by <a href="http://www.livenomad.net/">Benj Ramos</a></p>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.2.3/featherlight.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

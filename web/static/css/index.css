@@ -1,0 +1,357 @@
+body {
+  font-family: 'Lato';
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 100px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+p.limited {
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+p.big {
+  font-size: 1.5em;
+}
+
+p.small {
+  font-size: 1em;
+}
+
+.calling-card {
+  position: relative;
+  background-image: url(../images/balingkilat_40.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.calling-card .card-text {
+  visibility: hidden;
+  text-align: center;
+}
+
+.social {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.social-buttons {
+  margin-bottom: 25px;
+}
+
+.social.fb {
+  background-image: url(../images/fb_white.png);
+}
+
+.social.fb:hover {
+  background-image: url(../images/fb_colored.png);
+}
+
+.social.linkedin {
+  background-image: url(../images/in_white.png);
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.social.linkedin:hover {
+  background-image: url(../images/in_colored.png);
+}
+
+.social.github {
+  background-image: url(../images/git_white.png);
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.social.github:hover {
+  background-image: url(../images/git_colored.png);
+}
+
+.social.mail {
+  background-image: url(../images/mail_white.png);
+}
+
+.social.mail:hover {
+  background-image: url(../images/mail_colored.png);
+}
+
+.calling-card .logo {
+  background-image: url(../images/logo_white.png);
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.languages .lang {
+  margin: 0 auto;
+  width: 128px;
+  height: 128px;
+  margin-top: 50px;
+}
+
+.languages .python {
+  background-image: url(../images/python.png)
+}
+
+.languages .big-js {
+  background-image: url(../images/big-js.png)
+}
+
+.languages .others {
+  background-image: url(../images/others.png)
+}
+
+.frontend {
+  margin-top: 128px;
+  margin-bottom: 128px;
+  position: relative;
+}
+
+.frontend .orbit {
+  display: none;
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 50%;
+  left: 50%;
+  margin-top: -48px;
+  margin-left: -48px;
+}
+
+.frontend .reactjs {
+  background-image: url(../images/react.png);
+  margin: 0 auto;
+  height: 128px;
+  width: 128px;
+}
+
+.frontend .html5 {
+  background-image: url(../images/html5_96.png);
+}
+
+.frontend .css {
+  background-image: url(../images/css3_96.png);
+}
+
+.frontend .js {
+  background-image: url(../images/js_96.png);
+}
+
+.server {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.server .serv {
+  margin: 0 auto;
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.server .flask {
+  background-image: url(../images/flask.png);
+}
+
+.server .docker {
+  /*height: 107px;*/
+  background-image: url(../images/docker.png);
+}
+
+.server .mysql {
+  /*height: 67px;*/
+  background-image: url(../images/mysql.png);
+}
+
+.footer {
+  position: relative;
+  background-color: #383838;
+  color: white;
+  padding: 25px;
+}
+
+.footer p {
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.footer .social-buttons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.footer a,
+.footer strong {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+#email-decrypt {
+  max-width: 500px;
+}
+
+#hidden {
+  display: none;
+}
+
+.mail-container {
+  max-width: 480px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mail-container h4 {
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.mail-container p,
+.mail-container .greeting {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.decrypt {
+  margin-top: 20px;
+}
+
+.cipher {
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.shield {
+  display: inline-block;
+  width: 64px;
+  height: 77px;
+  background-image: url(../images/shield_red.png);
+}
+
+/*animations*/
+
+.frontend .orbit.play {
+  -webkit-animation: orbit 3s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: orbit 3s linear infinite; /* Firefox 5-15 */
+       -o-animation: orbit 3s linear infinite; /* Opera 12+ */
+          animation: orbit 3s linear infinite; /* Chrome, Firefox 16+,
+                                                    IE 10+, Safari 5 */
+}
+
+.frontend .css .play {
+  -webkit-animation: orbit 3s linear 1s infinite; /* Chrome, Safari 5 */
+     -moz-animation: orbit 3s linear 1s infinite; /* Firefox 5-15 */
+       -o-animation: orbit 3s linear 1s infinite; /* Opera 12+ */
+          animation: orbit 3s linear 1s infinite; /* Chrome, Firefox 16+,
+                                                    IE 10+, Safari 5 */
+}
+
+.frontend .js .play {
+  -webkit-animation: orbit 3s linear 2s infinite; /* Chrome, Safari 5 */
+     -moz-animation: orbit 3s linear 2s infinite; /* Firefox 5-15 */
+       -o-animation: orbit 3s linear 2s infinite; /* Opera 12+ */
+          animation: orbit 3s linear 2s infinite; /* Chrome, Firefox 16+,
+                                                    IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes orbit {
+  from { -webkit-transform: rotate(0deg) translateX(128px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(128px) rotate(-360deg); }
+}
+
+@-moz-keyframes orbit {
+  from { -moz-transform: rotate(0deg) translateX(128px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(128px) rotate(-360deg); }
+}
+
+@-o-keyframes orbit {
+  from { -o-transform: rotate(0deg) translateX(128px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(128px) rotate(-360deg); }
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(128px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(128px) rotate(-360deg); }
+}
+
+@-webkit-keyframes joinOrbit {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(128px, 0, 0);
+  }
+}
+
+@keyframes joinOrbit {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(128px, 0, 0);
+  }
+}
+
+.joinOrbit {
+  -webkit-animation-name: joinOrbit;
+  animation-name: joinOrbit;
+}
+
+.spacer {
+  height: 1000px;
+  width: 1000px;
+}
